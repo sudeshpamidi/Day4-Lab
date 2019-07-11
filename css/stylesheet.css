@@ -1,0 +1,24 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;       
+  }
+
+  @media (max-width: 600px) {
+    #lgimg {
+        display: none;
+    }
+}
+  
+#content {
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: right;
+}  
+
+ol{
+    display: inline;
+}
