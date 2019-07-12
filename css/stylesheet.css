@@ -10,7 +10,7 @@ body {
 }
   
 #content {
-    text-align: center;
+    text-align: left;
 }
 header{
     text-align: center;
@@ -20,5 +20,14 @@ footer{
 }  
 
 ol{
+    list-style: none;
+}
+ol li{
     display: inline;
+    padding: 5px;
+}
+
+.collable {
+    text-align: right;
+    float:right;
 }
